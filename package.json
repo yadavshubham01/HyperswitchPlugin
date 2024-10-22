@@ -1,0 +1,24 @@
+{
+  "name": "hyperswitch-commercetools-extension",
+  "version": "1.0.0",
+  "description": "Hyperswitch integration for commercetools",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@commercetools/sdk-client": "^2.1.2",
+    "@commercetools/sdk-middleware-auth": "^6.1.2",
+    "@commercetools/sdk-middleware-http": "^6.0.4",
+    "axios": "^0.21.4",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "winston": "^3.15.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^7.0.0"
+  }
+}
