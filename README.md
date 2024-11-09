@@ -8,8 +8,9 @@
     
 
 2. Install dependencies:
-    bash
+    ```
     npm install
+    ```
     
 
 3. Set up environment variables:
@@ -21,7 +22,7 @@
     
 
 4. Start the server locally:
-    bash
+    ```
     npm start
     ```
 ```
